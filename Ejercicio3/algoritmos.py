@@ -12,6 +12,33 @@ lista_naves=[Nave1, Nave2,Nave3,Nave4,Nave5,Nave6]
 
 #print(Nave1)
 #print(Nave2)
+
+def ordenar_nombres(lista):
+    lista_nombres=[]
+    for nave in lista:
+        lista_nombres.append(nave.get_nombre())
+    lista_nombres.sort()
+    print(lista_nombres)
+
+def ordenar_nombres_reversa(lista):
+    lista_nombres=[]
+    for nave in lista:
+        lista_nombres.append(nave.get_nombre())
+    lista_nombres.sort()
+    lista_nombres.reverse()
+    print(lista_nombres)
+
+
+
+
+
+
+
+
+
+
+
+
 def las5navesmaspasajeros(lista,cont=0):
     if len(lista)<=5:
         for nave in lista:
@@ -76,5 +103,4 @@ def maspequeño(lista):
             print(nave)
         else:
             pass
-    
-            
+
