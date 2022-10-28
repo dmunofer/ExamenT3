@@ -5,4 +5,3 @@ def sarrus_iter(matriz):
     return det
 
 
-def sarrus_rec
