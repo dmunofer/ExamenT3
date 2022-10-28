@@ -18,9 +18,9 @@ def las5navesmaspasajeros(lista,cont=0):
             print(str(nave.get_nombre()))
 
     else:
-        max=1
-        if cont<4:
+        if cont<5:
             for nave in lista:
+                max=1
                 if nave.get_npasajeros()>max:
                     max=nave.get_npasajeros()
                 else:
@@ -29,9 +29,25 @@ def las5navesmaspasajeros(lista,cont=0):
                 if nave.get_npasajeros()==max:
                     print(str(nave.get_nombre()))
                     lista_naves.remove(nave)
-                    cont+=1
                 else:
                     pass
             return las5navesmaspasajeros(lista_naves,cont+1)
 
-        
+def mayortripulacion(lista):
+    max=1
+    for nave in lista:
+
+        if nave.get_tripulacion()>max:
+            max=nave.get_tripulacion()
+        else:
+            pass
+    for nave in lista:
+        if nave.get_tripulacion==max:
+            print(str(nave.get_nombre()))
+
+def comienzaconAt(lista):
+    for nave in lista:
+        if nave.get_nombre()[0]=='A' and nave.get_nombre()[1]=='T':
+            print(nave)
+        else:
+            pass
