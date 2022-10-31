@@ -3,6 +3,7 @@ from Ejercicio2 import Ejercicio2
 import Ejercicio3.algoritmos as ej3
 import Ejercicio3.nave
 from Ejercicio3.nave import Nave
+from Ejercicio4 import Ejercicio4
 from Ejercicio5 import Ejercicio5
 
 def ejecutar():
@@ -34,6 +35,13 @@ def ejecutar():
         ej3.mas6pasajeros(lista_naves)
         ej3.masgrande(lista_naves)
         ej3.maspequeño(lista_naves)
+
+    elif n==4:
+        polinomio1=input('Introduce el primer polinomio: ')
+        polinomio2=input('Introduce el segundo polinomio: ')
+
+        Ejercicio4.dividir(polinomio1,polinomio2)
+        Ejercicio4.restar(polinomio1,polinomio2)
 
 
     elif n==5:
