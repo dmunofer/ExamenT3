@@ -1,4 +1,4 @@
-from clase_nave import *
+from nave import *
 
 Nave1=Nave('Halcón Milenario',800, 8,15)
 Nave2=Nave('Estrella de la Muerte',1800, 250,900)
@@ -27,17 +27,6 @@ def ordenar_nombres_reversa(lista):
     lista_nombres.sort()
     lista_nombres.reverse()
     print(lista_nombres)
-
-
-
-
-
-
-
-
-
-
-
 
 def las5navesmaspasajeros(lista,cont=0):
     if len(lista)<=5:

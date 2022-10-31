@@ -1,7 +1,8 @@
 import sys
-import Ejercicio1
+import Ejercicio1.Ejercicio1 as ej1
 import Ejercicio2
-from Ejercicio3 import *
+import Ejercicio3.algoritmos
+import Ejercicio3.nave
 
 
 
