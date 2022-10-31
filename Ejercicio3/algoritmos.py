@@ -28,6 +28,16 @@ def ordenar_nombres_reversa(lista):
     lista_nombres.reverse()
     print(lista_nombres)
 
+def halcon(lista):
+    for nave in lista:
+        if nave.get_nombre()=='Halcón Milenario':
+            print(nave)
+
+def estrella(lista):
+    for nave in lista:
+        if nave.get_nombre()=='Estrella de la Muerte':
+            print(nave)
+
 def las5navesmaspasajeros(lista,cont=0):
     if len(lista)<=5:
         for nave in lista:
