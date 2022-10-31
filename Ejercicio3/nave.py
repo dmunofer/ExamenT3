@@ -9,8 +9,6 @@ class Nave():
     def __str__(self):
         return "La nave {}, tiene {} metros de largo, {} tripulantes y {} pasajeros".format( self.nombre, self.largo, self.tripulacion, self.npasajeros)
 
-
-
     def get_nombre(self):
         return self.nombre
     def get_largo(self):

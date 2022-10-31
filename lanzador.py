@@ -43,8 +43,10 @@ def ejecutar():
         Ejercicio4.dividir(polinomio1,polinomio2)
         Ejercicio4.restar(polinomio1,polinomio2)
 
-
     elif n==5:
         mensaje= input('Introduce el mensaje que quieres encriptar: ')
         encriptado=Ejercicio5.encriptar(mensaje)
         print(encriptado)
+
+    else:
+        raise Exception('Número de ejercicio incorrecto.(Debe ser 1,2,3,4 o 5)')

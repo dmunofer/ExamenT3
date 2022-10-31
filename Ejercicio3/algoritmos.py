@@ -9,10 +9,6 @@ Nave6=Nave('Interceptor',4,1,2)
 lista_naves=[Nave1, Nave2,Nave3,Nave4,Nave5,Nave6]
 
 
-
-#print(Nave1)
-#print(Nave2)
-
 def ordenar_nombres(lista):
     lista_nombres=[]
     for nave in lista:
